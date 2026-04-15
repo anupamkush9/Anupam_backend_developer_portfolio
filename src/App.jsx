@@ -22,13 +22,13 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="container px-3 px-md-4 pt-5">
+      <div className="page-wrapper px-3 px-md-4 pt-5">
         <Home />
-        <About/>
+        <About />
         <Experience />
         <Education />
         <Skills />
-        <Certifications/>
+        <Certifications />
         <MediumArticles />
         {/* <Projects /> */}
         <Contact />

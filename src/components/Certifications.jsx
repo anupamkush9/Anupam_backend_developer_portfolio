@@ -71,7 +71,7 @@ const Certifications = () => {
   ];
 
   return (
-    <div className="container certifications" id="certifications">
+    <div className="container certifications section-wrapper" id="certifications">
       <h1 data-aos="fade-right" className="st-font mb-4">Certifications</h1>
       <div className="items row">
         {certifications.map((cert) => (

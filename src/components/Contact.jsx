@@ -8,13 +8,13 @@ import { FaMedium } from "react-icons/fa";
 const accent = { color: "orange" };
 const Contact = () => {
   return (
-    <div className="container py-5" id="contact">
+    <div className="container py-5 section-wrapper" id="contact">
       <h1 data-aos="fade-right" className="mb-4 st-font">Contact me</h1>
 
       <div className="row d-flex justify-content-center align-content-center" id="contact-container"
         data-aos="zoom-in" data-aos-duration="1000">
         {/* Contact Info */}
-        <div className="contact-item col-10">
+        <div className="contact-item col-12">
           <div className="row">
             <div className="col-md-6 mb-4">
               <h4 className="mb-3 st-font" style={accent}>Get in Touch</h4>

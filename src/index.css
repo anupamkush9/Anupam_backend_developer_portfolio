@@ -20,8 +20,38 @@ a {
 }
 
 /* General css */
-#home, #skills, #certifications, #projects, #contact, #about, #experience, #education {
+#home, #skills, #certifications, #projects, #contact, #about, #experience, #education, #medium-articles {
   margin-bottom: 100px;
+}
+
+.page-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.section-wrapper {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.container h1 + .row,
+.container h1 + .text-center,
+.container h1 + .items,
+.container h1 + .py-5 {
+  margin-top: 0;
+}
+
+.container {
+  max-width: 1140px;
 }
 
 /* Home Section */
@@ -122,13 +152,15 @@ a {
   justify-content: space-evenly;
   align-items: center;
   background-color: #1a1a1a;
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
   border: var(--border);
   box-shadow: none;
   transition: all 0.3s ease;
   color: white;
+  width: 100%;
+  max-width: 100%;
 }
 
 .ex-items:hover{
@@ -139,19 +171,21 @@ a {
 /* Skills */
 
 .skills .items {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  /* width: 800px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  align-items: stretch;
   margin: auto;
-  /* background-color: yellow; */
+  width: 100%;
 }
 
 .skills .item {
   background-color: #1a1a1a;
-  margin: 10px;
-  height: 200px;
+  width: 100%;
+  max-width: 220px;
+  margin: 0;
+  min-height: 200px;
   text-align: center;
   padding: 10px;
   border-radius: 10px;
@@ -179,18 +213,20 @@ a {
 }
 
 .certifications .items {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  /* width: 800px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  align-items: stretch;
   margin: auto;
-  /* background-color: yellow; */
+  width: 100%;
 }
 .certifications .item {
   background-color: #1a1a1a;
-  margin: 10px;
-  height: 200px;
+  width: 100%;
+  max-width: 220px;
+  margin: 0;
+  min-height: 200px;
   text-align: center;
   padding: 10px;
   border-radius: 10px;
@@ -293,10 +329,12 @@ a {
   border: var(--border);
   background-color: #1a1a1a;
   box-shadow: none;
-  margin: 20px;
+  margin: 20px auto;
   padding: 30px;
   transition: all 0.3s ease;
   color: white;
+  width: 100%;
+  max-width: 100%;
 }
 
 .contact-item:hover{
@@ -344,13 +382,15 @@ Oleo Script Swash Caps
   justify-content: space-evenly;
   align-items: center;
   background-color: #1a1a1a;
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
   border: var(--border);
   box-shadow: none;
   transition: all 0.3s ease;
   color: white;
+  width: 100%;
+  max-width: 100%;
 }
 
 .ed-items:hover{

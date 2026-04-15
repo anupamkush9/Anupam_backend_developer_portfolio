@@ -2,13 +2,13 @@ import experience from './data/experience';
 
 const Experience = () => {
   return (
-    <div className="container" id="experience">
+    <div className="container section-wrapper" id="experience">
       <h1 data-aos="fade-right" className="mb-4 st-font">Experience</h1>
       <div className="row justify-content-center">
         {experience.map((data) => (
           <div
             key={data.id}
-            className="col-12 col-md-10 mb-4"
+            className="col-12 mb-4"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >

@@ -4,11 +4,11 @@
 const About = () => {
     return (
         <>
-            <div className="container about mt-5" id="about">
+            <div className="container about mt-5 section-wrapper" id="about">
                 <h1 data-aos="fade-right" className="mb-4 os-font">About</h1>
                 <div className="d-flex justify-content-evenly align-items-center row">
                     <div
-                        className="col-12 col-md-10 mb-4 text-center"
+                        className="col-12 mb-4 text-center"
                         data-aos="zoom-in"
                         data-aos-duration="1000"
                     >

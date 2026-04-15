@@ -2,13 +2,13 @@ import education from './data/education';
 
 const Education = () => {
   return (
-    <div className="container" id="education">
+    <div className="container section-wrapper" id="education">
       <h1 data-aos="fade-right" className="mb-4 st-font">Education</h1>
       <div className="row justify-content-center">
         {education.map((data) => (
           <div
             key={data.id}
-            className="col-12 col-md-10 mb-4"
+            className="col-12 mb-4"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >

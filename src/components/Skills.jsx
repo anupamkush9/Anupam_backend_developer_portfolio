@@ -72,7 +72,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="container skills" id="skills">
+    <div className="container skills section-wrapper" id="skills">
       <h1 data-aos="fade-right" className="mb-4 os-font">Skills</h1>
       <div className="items row">
         {skills.map((skill) => (

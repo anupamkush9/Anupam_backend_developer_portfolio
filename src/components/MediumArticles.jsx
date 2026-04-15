@@ -12,8 +12,8 @@ export default function MediumArticles() {
   }, []);
 
   return (
-    <div className="container py-5" id="medium-articles">
-      <h1 data-aos="fade-right" className="mb-4 os-font"> My Medium Articles</h1>
+    <div className="container py-5 section-wrapper" id="medium-articles">
+      <h1 data-aos="fade-right" className="mb-4 os-font">My Medium Articles</h1>
 
       <div className="text-center mb-5">
         <span className="lead text-warning" style={{ fontWeight: 500 }}>
